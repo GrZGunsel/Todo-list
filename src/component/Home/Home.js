@@ -13,7 +13,7 @@ function Home() {
       <Link to="/todo" className="align-center link">
         <div className="btn align-center">
           <img src={Play} alt="Sad" />
-          <h1>Getting Started</h1>
+          <h1>Click to Start</h1>
         </div>
       </Link>
     </div>
