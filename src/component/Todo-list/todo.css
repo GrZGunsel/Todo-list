@@ -1,0 +1,31 @@
+.list-items {
+  margin-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  padding: 0% 4%;
+  background: linear-gradient(
+    110.73deg,
+    rgba(255, 255, 255, 0.178) 0.36%,
+    rgba(255, 255, 255, 0.195) 100%
+  );
+
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 6px;
+  flex: 2;
+  height: 60px;
+}
+.list-item p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.list-items img {
+  margin-left: 10px;
+  cursor: pointer;
+}

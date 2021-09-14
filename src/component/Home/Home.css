@@ -1,0 +1,36 @@
+.Home {
+  padding: 3% 4%;
+}
+.Home h1 {
+  font-weight: 800;
+  font-size: 85px;
+
+  letter-spacing: 0.015em;
+}
+
+.Home .btn {
+  margin-top: 5%;
+  width: 264px;
+  height: 57px;
+  background: linear-gradient(
+    92.78deg,
+    rgba(255, 255, 255, 0.385) 0%,
+    rgba(255, 255, 255, 0.215) 99.68%
+  );
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(45px);
+  border-radius: 12px;
+}
+.Home .btn img {
+  margin-right: 10px;
+}
+.Home .btn h1 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,13 @@
+.navbar {
+  padding: 5% 0 3% 0;
+}
+
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-link h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 20px;
+}
